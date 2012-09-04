@@ -6,7 +6,7 @@ A simple implementation of the MVC pattern using Swing as UI Framework.
 Class Diagram
 =============
 
-![MVC](doc/UML_Class_Diag.jpg)
+![UML_MVC](https://github.com/nap/SimpleMVC/blob/master/doc/UML_Class_Diag.jpg?raw=true)
 
 Process Diagram
 ===============
