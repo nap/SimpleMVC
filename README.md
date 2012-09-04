@@ -1,7 +1,7 @@
 SimpleMVC
 =========
 
-A simple implementation of the MVC pattern using Swing as UI Framework.
+A simple implementation of the MVC pattern using Swing as UI Framework. This implementation represent the bare minimum to have successful implementation of the Model View Controller pattern.
 
 Class Diagram
 =============
