@@ -84,7 +84,8 @@ public class MainView extends JFrame implements Observer {
 	private void showAide() {
 		final Help help = new Help();
 		((JDesktopPane) main.getComponent(0)).add(help);
-		((JButton) ((JPanel) help.getContentPane()).getComponent(((int) help.getContentPane().getComponentCount()) - 1)).addActionListener(new ActionListener() {
+		((JButton) ((JPanel) help.getContentPane()).getComponent(((int) help.getContentPane()
+                .getComponentCount()) - 1)).addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				help.setVisible(false);
 			}
@@ -128,6 +129,7 @@ public class MainView extends JFrame implements Observer {
 	public void update(Observable o, Object arg) {
 		if(arg.equals("action")) 
 			alert("One Action !");
+
 		repaint();
 	}
 }

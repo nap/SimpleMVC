@@ -17,6 +17,5 @@ public class MainController {
 	public void quitter(JPanel main) {
 		((JFrame) main.getTopLevelAncestor()).dispose();
 		System.out.println("Quit !");
-		
 	}
 }

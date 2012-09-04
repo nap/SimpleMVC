@@ -13,7 +13,7 @@ import javax.swing.border.EmptyBorder;
 public class Help extends JInternalFrame {
 	private JPanel panel = new JPanel();
 	public Help() {
-		super("Informations on shortcuts", false, false, false, false);
+		super("Information on shortcuts", false, false, false, false);
 		this.setSize(200, 120);
 		this.setLocation(220, 100);
 		this.setContentPane(init());
