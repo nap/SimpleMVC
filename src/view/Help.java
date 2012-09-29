@@ -1,7 +1,6 @@
 package view;
 
 import java.awt.GridLayout;
-
 import javax.swing.JButton;
 import javax.swing.JInternalFrame;
 import javax.swing.JLabel;

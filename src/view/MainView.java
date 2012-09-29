@@ -10,7 +10,6 @@ import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.util.Observable;
 import java.util.Observer;
-
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JComponent;
@@ -71,7 +70,7 @@ public class MainView extends JFrame implements Observer {
 
 		menu.getMenu(1).getItem(0).addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				showAide();
+				showHelp();
 			}
 		});
 	}
@@ -81,7 +80,7 @@ public class MainView extends JFrame implements Observer {
 		return (clicked == JOptionPane.YES_OPTION) ? true : false;
 	}
 
-	private void showAide() {
+	private void showHelp() {
 		final Help help = new Help();
 		((JDesktopPane) main.getComponent(0)).add(help);
 		((JButton) ((JPanel) help.getContentPane()).getComponent(((int) help.getContentPane()

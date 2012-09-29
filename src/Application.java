@@ -1,10 +1,7 @@
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
-
 import model.MainModel;
-
 import controller.MainController;
-
 import view.*;
 
 public class Application {

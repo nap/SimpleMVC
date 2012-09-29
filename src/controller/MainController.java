@@ -2,7 +2,6 @@ package controller;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-
 import model.MainModel;
 
 public class MainController {
